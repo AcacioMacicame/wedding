@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Locations</title>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Wedding and Party Locations</h2>
+    <div id="map"></div>
+
+    <script>
+        function initMap() {
+            const weddingLocation = { lat: -25.9524945, lng: 32.5887047 }; // Change to actual location
+            const partyLocation = { lat: -23.55152, lng: -46.632308 };   // Change to actual location
+
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 14,
+                center: weddingLocation,
+            });
+
+            new google.maps.Marker({
+                position: weddingLocation,
+                map,
+                title: "Wedding Location",
+            });
+
+            new google.maps.Marker({
+                position: partyLocation,
+                map,
+                title: "Party Location",
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAPQ7wODnqUFQ1GbPviz1wUguBQXnrusqQ&callback=initMap" async defer></script>
+</body>
+</html>

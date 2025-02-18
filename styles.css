@@ -1,0 +1,153 @@
+body {
+    background-color: #1d3d2f;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.invitation-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 5px solid #8b6f4c;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 32px;
+    color: gold;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1d3d2f;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.head-info p {
+    font-size: 16px;
+    color: white;
+}
+
+.countdown-box p {
+    font-size: 16px;
+    color: white;
+}
+
+.confirm-text {
+    font-style: italic;
+    font-weight: bold;
+    color: #8b6f4c;
+}
+
+.confirm-button {
+    margin-top: 15px;
+}
+
+.confirm-button a {
+    display: inline-block;
+    background: #8b6f4c;
+    color: #1d3d2f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.confirm-button a:hover {
+    background: #d4af37;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #8b6f4c;
+}
+
+.details-page {
+    background: url('cover.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gold;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.countdown-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 60px;
+}
+
+.countdown-box span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.invite-button {
+    display: inline-block;
+    background: gold;
+    color: #1d3d2f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.invite-button:hover {
+    background: #d4af37;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: gold;
+    color: #1d3d2f;
+    border-radius: 50%;
+    font-size: 24px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.icon-button:hover {
+    background: #d4af37;
+}
